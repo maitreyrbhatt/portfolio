@@ -1,0 +1,235 @@
+/* HOME */
+.container1 {
+  position: sticky;
+  text-align: left;
+  color: black;
+  font-family: cursive;
+  font-weight: bolder;
+  transition: linear;
+}
+
+.centered {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  transition: linear;
+}
+
+.info1 {
+  color: rgb(7, 93, 221);
+  font-family: cursive;
+  font-weight: 920;
+  font-size: 3vw;
+}
+
+.quotes {
+  position: absolute;
+  color: green;
+  font-family: cursive;
+  font-weight: 920;
+  font-size: smaller;
+  text-align: center;
+  text-size-adjust: inherit;
+}
+
+/* ABOUT */
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  color: black;
+  font-family: cursive;
+  font-weight: 920;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+  color: black;
+  font-family: cursive;
+  font-weight: 920;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+  font-family: cursive;
+  color: black;
+  font-weight: 920;
+}
+
+.skill-mf span {
+  color: black;
+  font-family: cursive;
+  font-weight: 920;
+}
+
+.skill-mf .progress {
+  background-color: #cde1f8;
+  margin: 0.5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: 0.7rem;
+  font-family: cursive;
+  color: black;
+  font-weight: 920;
+}
+
+.skill-mf .progress .progress-bar {
+  height: 0.7rem;
+  background-color: #0078ff;
+  font-family: cursive;
+  color: black;
+  font-weight: 920;
+}
+
+/* DIVIDER */
+
+.divider {
+  position: relative;
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.divider:before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  border: 1px solid #f0f0f0;
+  left: 50%;
+  margin-left: -15px;
+  top: 50%;
+  background: #fff;
+  margin-top: -15px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.divider:after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  border: 1px solid #2ca5b9;
+  left: 50%;
+  margin-left: -10px;
+  top: 50%;
+  background: #2ca5b9;
+  margin-top: -10px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* SCROLL TOP */
+.scroll-top {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 25px;
+  right: 20px;
+  display: none;
+  opacity: 50%;
+}
+
+
+/* CERTIFICATES */
+.certificates {
+  color: black;
+  font-family: cursive;
+  font-weight: 920;
+  margin-top: 1%;
+}
+
+.certificates h3 {
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: end;
+  margin-bottom: 15%;
+
+}
+
+.row1 {
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE10 */
+  flex-wrap: wrap;
+  /* padding: 0 4px; */
+  justify-content: center;
+  /* padding-top: 5%; */
+  /* padding-bottom: 5%; */
+
+}
+
+/* Create four equal columns that sits next to each other */
+.column1 {
+  -ms-flex: 25%;
+  /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  /* padding-top: 5%;
+  padding-bottom: 5%; */
+
+
+}
+
+.column1 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column1 {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column1 {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* CONTACTUS */
+.contactus {
+  margin-top: 2%;
+  text-align: left;
+  color: black;
+  font-family: cursive;
+  font-weight: 920;
+
+
+}
+
+.ct-details {
+  /* margin-right: 30%; */
+  /* text-align: center; */
+  color: black;
+  font-family: cursive;
+  font-weight: 920;
+}
+
+.connects {
+  color: black;
+  background-color: #fffcfb73;
+  text-align: center;
+}
+
+.copyright {
+  text-align: center;
+  color: black;
+  font-family: cursive;
+  font-weight: 920;
+}
